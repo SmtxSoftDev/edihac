@@ -26,9 +26,9 @@
                         <p class="uk-text-justify toggle-text">You got the mask wrong. <br />I'm Zorro idiot.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">138</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">8</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">2</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -38,8 +38,8 @@
                         <p class="uk-text-justify toggle-text">Share this golden horse so they don't break your poor heart anymore.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">102</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">4</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -50,8 +50,8 @@
                         <p class="uk-text-justify toggle-text">My friends: calm, there are many fish in the sea. <br />My sea:</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">92</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">12</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -62,9 +62,9 @@
                         <p class="uk-text-justify toggle-text">When they talk about pathogenic agents, I imagine something like this.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">66</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">14</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">1</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -74,8 +74,8 @@
                         <p class="uk-text-justify toggle-text">When they ask me for things at work and EVERYTHING is urgent <br />Me:I'm not a robot</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">178</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">26</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -87,8 +87,8 @@
                         <p class="uk-text-justify toggle-text">Dogs can't walk on the beach <br />Pigs can</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">131</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">3</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -140,15 +140,12 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
-
-
                 <label class="popupCont">Your option
                     <input class="popupContText" type="text">
                 </label>
 
                 <button class="popupBtnSent">Send</button>
             </div>
-
             <div class="popupThanks">
                 <h2 class="popupTitle">Thanks for your feedback!</h2>
                 <p class="popupSubtitle">We will urgently check the post</p>

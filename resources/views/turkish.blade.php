@@ -28,9 +28,9 @@
                         <p class="uk-text-justify toggle-text">Use the toilet in a clean way. <br />America can shoot Iraq from 5 thousand km, you can’t shoot a 20 cm hole in front of you, a#hole.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">124</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">2</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">18</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -40,8 +40,8 @@
                         <p class="uk-text-justify toggle-text">"Hot water in the student house" project.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">98</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">1</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@
                         <p class="uk-text-justify toggle-text">Which way now?</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">119</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">2</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                         <p class="uk-text-justify toggle-text">Find me the master who made this.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">136</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">2</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
                         <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
@@ -77,9 +77,9 @@
                         <p class="uk-text-justify toggle-text">This technology is good, how can I use it.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">124</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">2</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">18</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -89,12 +89,11 @@
                         <p class="uk-text-justify toggle-text">A man chasing thieves who broke into his home in Sultangazi city, when he could not catch the thieves returned home by a passing car. And when he looked at the surveillance footage, he saw that those who took him home were thieves.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">124</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">2</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">18</div>
+                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
                     </div>
                 </div>
-
             </div>
         </div> <!-- end of container -->
     </div> <!-- end of ex-basic-1 -->
