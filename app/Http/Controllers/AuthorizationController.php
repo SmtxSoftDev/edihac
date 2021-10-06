@@ -24,10 +24,10 @@ class AuthorizationController extends Controller
    
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('dashboard')
+            return redirect()->intended('/')
                         ->withSuccess('Signed in');
         }
-  
+          
         return redirect("login")->withSuccess('Login details are not valid');
     }
 

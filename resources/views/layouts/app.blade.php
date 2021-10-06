@@ -73,7 +73,11 @@
                     </li>
                 </ul>
                 <span class="nav-item">
+                    @guest
                     <a class="btn-solid-sm page-scroll" href="/registration">Start studying</a>
+                    @else
+                    <a class="btn-solid-sm page-scroll" href="/signout">Log out</a>
+                    @endguest
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
