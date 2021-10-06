@@ -26,9 +26,15 @@
                         <p class="uk-text-justify toggle-text">You got the mask wrong. <br />I'm Zorro idiot.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id1')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id1">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id2')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id2">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id3')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id3">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -38,9 +44,15 @@
                         <p class="uk-text-justify toggle-text">Share this golden horse so they don't break your poor heart anymore.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id4')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id4">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id5')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id5">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id6')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id6">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -50,9 +62,15 @@
                         <p class="uk-text-justify toggle-text">My friends: calm, there are many fish in the sea. <br />My sea:</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id7')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id7">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id8')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id8">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id9')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id9">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -62,9 +80,15 @@
                         <p class="uk-text-justify toggle-text">When they talk about pathogenic agents, I imagine something like this.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id10')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id10">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id11')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id11">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id12')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id12">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -74,9 +98,15 @@
                         <p class="uk-text-justify toggle-text">When they ask me for things at work and EVERYTHING is urgent <br />Me:I'm not a robot</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id13')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id13">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id14')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id14">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id15')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id15">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -87,12 +117,17 @@
                         <p class="uk-text-justify toggle-text">Dogs can't walk on the beach <br />Pigs can</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id16')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id16">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id17')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id17">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id18')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id18">0</div></div>
+                        @endguest
                     </div>
                 </div>
-
             </div>
         </div> <!-- end of container -->
     </div> <!-- end of ex-basic-1 -->

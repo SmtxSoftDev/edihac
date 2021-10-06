@@ -16,7 +16,6 @@
     </header> <!-- end of ex-header -->
     <!-- end of header -->
 
-
     <!-- Basic -->
     <div class="ex-basic-1 pt-5 pb-5">
         <div class="container">
@@ -28,9 +27,15 @@
                         <p class="uk-text-justify toggle-text">Use the toilet in a clean way. <br />America can shoot Iraq from 5 thousand km, you can’t shoot a 20 cm hole in front of you, a#hole.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id1')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id1">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id2')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id2">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id3')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id3">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -40,9 +45,15 @@
                         <p class="uk-text-justify toggle-text">"Hot water in the student house" project.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id4')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id4">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id5')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id5">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id6')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id6">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -52,9 +63,15 @@
                         <p class="uk-text-justify toggle-text">Which way now?</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id7')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id7">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id8')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id8">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id9')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id9">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -64,9 +81,15 @@
                         <p class="uk-text-justify toggle-text">Find me the master who made this.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id10')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id10">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id11')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id11">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id12')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id12">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -77,9 +100,15 @@
                         <p class="uk-text-justify toggle-text">This technology is good, how can I use it.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id13')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id13">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id14')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id14">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id15')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id15">0</div></div>
+                        @endguest
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-6">
@@ -89,9 +118,15 @@
                         <p class="uk-text-justify toggle-text">A man chasing thieves who broke into his home in Sultangazi city, when he could not catch the thieves returned home by a passing car. And when he looked at the surveillance footage, he saw that those who took him home were thieves.</p><a class="toggle-text-button">Translation</a>
                     </div>
                     <div class="comment">
-                        <div class="comBox comFun"><img class="commentImg" src="./images/fun.png" alt="">0</div>
-                        <div class="comBox comClear"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
-                        <div class="comBox comHarm"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @guest
+                            <div class="comBox"><img class="commentImg" src="./images/fun.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/clearness.png" alt="">0</div>
+                            <div class="comBox"><img class="commentImg" src="./images/harm.png" alt="">0</div>
+                        @else
+                            <div class="comBox comFun" onclick="count('#Id16')"><img class="commentImg" src="./images/fun.png" alt=""><div id="Id16">0</div></div>
+                            <div class="comBox comClear" onclick="count('#Id17')"><img class="commentImg" src="./images/clearness.png" alt=""><div id="Id17">0</div></div>
+                            <div class="comBox comHarm" onclick="count('#Id18')"><img class="commentImg" src="./images/harm.png" alt=""><div id="Id18">0</div></div>
+                        @endguest
                     </div>
                 </div>
             </div>

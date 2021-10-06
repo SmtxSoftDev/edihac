@@ -156,5 +156,10 @@
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script>
+        function count(Id){
+            $(Id).html("1");
+        }
+    </script>
 </body>
 </html>
