@@ -71,6 +71,11 @@
                             <a class="dropdown-item page-scroll" href="/french">French</a>
                         </div>
                     </li>
+                    @if(!Auth::guest())
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#">{{ Auth::user()->name }}</a>
+                    </li>
+                    @endif
                 </ul>
                 <span class="nav-item">
                     @guest

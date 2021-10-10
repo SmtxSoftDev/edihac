@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-xl-6 offset-xl-3">
                     <div class="text-box mt-5 mb-5">
-                        <p class="mb-4">You aren't signed up? Then please <a class="blue" href="sign-up.html">Sign Up</a></p>
+                        <p class="mb-4">You aren't signed up? Then please <a class="blue" href="/registration">Sign Up</a></p>
 
                         <!-- Log In Form -->
                         <form method="POST" action="{{ route('login.custom') }}" id="logInForm">
