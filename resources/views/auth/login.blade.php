@@ -22,23 +22,21 @@
                 <div class="col-xl-6 offset-xl-3">
                     <div class="text-box mt-5 mb-5">
                         <p class="mb-4">You aren't signed up? Then please <a class="blue" href="/registration">Sign Up</a></p>
-
+                        @if(session()->has('LoginError'))
+                            <div class="alert alert-danger">
+                                {{ session()->get('LoginError') }}
+                            </div>
+                        @endif
                         <!-- Log In Form -->
                         <form method="POST" action="{{ route('login.custom') }}" id="logInForm">
                             @csrf
                             <div class="form-group">
                                 <input type="email" class="form-control-input" id="email" name="email" required>
                                 <label class="label-control" for="email">Email</label>
-                                @if ($errors->has('email'))
-                                    <span class="text-danger">{{ $errors->first('email') }}</span>
-                                @endif
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control-input" id="password" name="password" required>
                                 <label class="label-control" for="password">Password</label>
-                                @if ($errors->has('password'))
-                                    <span class="text-danger">{{ $errors->first('password') }}</span>
-                                @endif
                             </div>
                             <div class="form-group mb-3">
                                 <div class="checkbox">

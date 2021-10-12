@@ -28,7 +28,7 @@ class AuthorizationController extends Controller
                         ->withSuccess('Signed in');
         }
           
-        return redirect("login")->withSuccess('Login details are not valid');
+        return redirect("login")->with('LoginError', 'Login or password incorrect!');
     }
 
 
